@@ -9,6 +9,8 @@ public partial class Score_Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        tool tool1 = new tool();
+        tool1.FileList("学号", "姓名", DropDownList1);
+        tool1.FileList("课程号", "课程表", DropDownList2);
     }
 }
