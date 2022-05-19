@@ -16,7 +16,7 @@ public class Class1
     {   
     }
     private SqlConnection getCn() {
-        string cnstr = "server=LAPTOP-D6A7VHU8;database=StudentDB;uid=sa;pwd=sasasa;";
+        string cnstr = "server=LAPTOP-C8G9MQ73;database=学生管理;uid=sa;pwd=123456;";
         SqlConnection cn = new SqlConnection(cnstr);
         cn.Open();
         return cn;

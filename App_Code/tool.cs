@@ -35,4 +35,7 @@ public class tool
         dpl.DataBind();
     }
     void MyInsert()
+    {
+
+    }
 }
