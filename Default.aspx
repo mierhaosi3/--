@@ -33,6 +33,6 @@
     <p>
         &nbsp;</p>
     <p>
-        新生入库：<a href="Default2.aspx"> 插入新人到学生表</a></p>
+        新生入库：<a href="Default2.aspx"> 插入新人到学生</a></p>
 </body>
 </html>

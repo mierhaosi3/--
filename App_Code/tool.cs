@@ -24,7 +24,7 @@ public class tool
     public void FileList(String herf, String table, DropDownList dpl)
     {
         string sql = " select " + herf + " from" + table;
-        DataTable t1 = new Class1().GetTable(sql);
+        DataTable t1 = new Class1().GetDateTable(sql);
         for (int i = 0; i < t1.Rows.Count; i++)
         {
             dpl.Items.Add(t1.Rows[i][0].ToString().Trim());
